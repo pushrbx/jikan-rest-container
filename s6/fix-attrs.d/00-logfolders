@@ -1,0 +1,4 @@
+/var/log/s6-jikan-job-queue-1 true nobody 0660 0700
+/var/log/s6-jikan-job-queue-2 true nobody 0660 0700
+/var/log/s6-jikan-job-queue-3 true nobody 0660 0700
+/var/log/s6-jikan true nobody 0660 0700

@@ -1,0 +1,2 @@
+#!/usr/bin/execlineb -P
+exec logutil-service /var/log/s6-jikan-job-queue-3

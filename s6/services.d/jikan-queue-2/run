@@ -1,0 +1,6 @@
+#!/usr/bin/execlineb -P
+
+with-contenv
+s6-setuidgid jikanapi
+cd /home/jikanapi/app
+exec php artisan queue:work --queue=high,low --tries=3

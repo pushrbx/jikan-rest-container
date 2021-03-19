@@ -1,0 +1,6 @@
+#!/usr/bin/execlineb -S0
+
+echo Jikan Job Queue #3 terminated
+
+# Terminate container
+s6-svscanctl -t /var/run/s6/services

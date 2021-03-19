@@ -1,0 +1,6 @@
+#!/usr/bin/execlineb -S0
+
+echo Jikan API terminated
+
+# Terminate container
+s6-svscanctl -t /var/run/s6/services

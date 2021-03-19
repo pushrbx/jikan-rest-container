@@ -1,0 +1,6 @@
+#!/usr/bin/execlineb -P
+
+with-contenv
+s6-setuidgid jikanapi
+cd /home/jikanapi/app
+exec php -S 0.0.0.0:8000 -t public
