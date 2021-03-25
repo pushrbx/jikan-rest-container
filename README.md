@@ -1,6 +1,7 @@
 # jikan-rest-container
 
 Jikan API in container with [s6-overlay](https://github.com/just-containers/s6-overlay).
+Please note that at the moment the default setting in the image is that jikan should use redis, and a redis hostname is expected.
 
 
 ## More info
